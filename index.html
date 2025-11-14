@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Site de Artes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="meutexto">Arte</h1>
+  <h2 class="texto">Para todos</h2>
+  <h3 class="subtexto">Criando Futuros com <br> Acessibilidade e <br> Inovação</h3>
+  <img class="t" src="CFAI.jpg" alt="Imagem de canto">
+
+  <img class="img" src="capa.jpg" alt="Imagem de capa artística">
+
+  <!-- Botões dos temas -->
+  <div class="temas">
+    <a class="tema" href="arterupestre.html" onclick="falar('Arte Rupestre e Antiga')">
+      <span>Arte Rupestre <br> e Antiga</span>
+    </a>
+    <a class="tema" href="renascimento.html" onclick="falar('Renascimento')">
+      <span>Renascimento</span>
+    </a>
+    <a class="tema" href="Impressionismo.html" onclick="falar('Impressionismo e Pós-impressionismo')">
+      <span>Impressionismo <br>e Pós-impressionismo</span>
+    </a>
+    <a class="tema" href="artemoderna.html" onclick="falar('Arte Moderna Brasileira e Contemporânea')">
+      <span>Arte Moderna Brasileira <br> e Contemporânea</span>
+    </a>
+  </div>
+
+  <!-- Botão de Acessibilidade -->
+  <div class="acessibilidade" onclick="ativarAcessibilidade()">
+    <span class="icone-mao"></span>
+    <span class="icone-som"></span>
+    <span>Acessibilidade</span>
+  </div>
+
+  <!-- Botão de fala -->
+  <div class="fala" onclick="ativarFala()">
+    <span class="icone-fala">🔊</span>
+    <span>Ativar Fala</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
