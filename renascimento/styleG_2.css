@@ -1,0 +1,112 @@
+#setaE{
+    position: absolute;
+    top: 92%;
+    left: 32%;
+    width: 50px;
+    height: auto;
+    transform: rotate(180deg);
+    cursor: pointer;
+    z-index: 5000;
+}
+#setaD{
+    position: absolute;
+    top: 92%;
+    right: 32%;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    z-index: 5000;
+    transform: ease;
+}
+#setaD:hover{
+    transform: scale(1.2);
+}
+#setaE:hover{
+    transform: rotate(180deg) scale(1.2);
+}
+#P1, #P2, #P3, #P4, #P5, #P6 {
+    position: absolute;
+        top: 10%;
+        right: 5%;
+    width: 55%;
+    height: auto;
+    z-index: -1;
+}
+#Q1, #Q2 {
+    position: absolute;
+        top: 12%;
+        left: 2%;
+    width:35%;
+    height: auto;
+}
+#Q3, #Q5 {
+    position: absolute;
+        top: 12%;
+        left: 2%;
+    width:35%;
+    height: auto;
+    transform: rotate(90deg);
+}
+.iniciar {
+    position: relative!important;
+        bottom: 10% !important;
+        left: 60% !important;
+    display: inline-block!important;
+    z-index: 1000;
+}
+
+.iniciar img {
+    display: block;
+    width: 30%;
+    height: auto;
+    z-index: 999;
+}
+
+.iniciar .texto {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: #221914;        /* cor do texto */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    pointer-events: none; /* texto não interfere no clique */
+    z-index: 999;
+}
+.voltarContainer {
+   position: absolute;
+        bottom: -2%;
+        right: 37%;
+}
+.quiz {
+    position: relative!important;
+        bottom: 10% !important;
+        left: 60% !important;
+    display: inline-block!important;
+    z-index: 990;
+}
+
+.quiz img {
+    display: block;
+    width: 30%!important;
+    height: auto;
+    z-index: 999;
+}
+
+.quiz .texto1 {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: #221914;        /* cor do texto */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    pointer-events: none; /* texto não interfere no clique */
+}
+.QuizContainer {
+   position: absolute;
+        bottom: -2%;
+        left: 24%;
+}

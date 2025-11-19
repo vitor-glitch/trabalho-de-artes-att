@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <div class="container">
+        <h1 id="main-title">Quiz</h1>
+        <div id="containerpergu">
+          <h1 id="question" style="display: none">Carregando pergunta...</h1>
+          <div id="answers"></div>
+          <div class="center">
+            <div>
+              <button id="start-btn" type="button">Play</button>
+              <button id="back-btn" type="button">Voltar ao site</button>
+            </div>
+            <button id="restart-btn" type="button">Tente novamente</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🔹 Modal FORA da estrutura principal -->
+    <div id="feedback-modal" class="modal">
+      <div class="modal-content">
+        <p id="feedback-text"></p>
+        <button id="continue-btn">Continuar</button>
+      </div>
+    </div>
+<div class="quadros">
+  <img src="quadro1.png" alt="">
+  <img src="quadro2.png" alt="">
+</div>
+<div class="btn-flutuante">
+    <img src="acessibilidade.png" alt="Ícone do botão">
+  </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
